@@ -5,17 +5,32 @@
 
 body {
   background-color: #1b2838;
-  margin-top: 100px;
 }
 
 h2 {
   color: #c9c4c4;
   font-family: Tahoma, Arial, Verdana;
+  text-align: center;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.container {
+  width: 280px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.container .img-erro {
+  width: 70%;
+}
+
+.center {
+  text-align: center;
 }
 
 .header {
   background-image: linear-gradient(to bottom, #1b2838, #4e697d);
-  position: fixed;
+  top: 0%;
 }
 .header .header-logo {
   text-decoration: none;
@@ -64,20 +79,65 @@ h2 {
   font-size: 15px;
   font-family: Tahoma, Arial, Verdana;
 }
-
-.img-fundo-moba {
-  margin-top: -2px;
-  display: block;
-  width: 100%;
+.opn li a:hover {
+  color: #c9c4c4;
+  transition: 300ms;
 }
 
 .show {
   display: block !important;
 }
 
+.cnt {
+  background-color: #4e697d;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 10 5px black;
+}
+.cnt ul {
+  list-style: none;
+}
+.cnt ul li {
+  margin: 5px;
+  text-align: center;
+}
+.cnt ul li a {
+  text-decoration: none;
+  color: #c9c4c4;
+}
+.cnt ul li a p {
+  font: Montserrat;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.flex .flex-col {
+  background-color: #101822;
+  width: 90%;
+  border: 1px solid #c9c4c4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.flex .flex-col p {
+  font: Montserrat;
+  color: #c9c4c4;
+  text-align: center;
+}
+.flex .flex-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .footer {
   text-align: center;
-  background-color: #475c6b;
+  background-color: #090c10;
   position: absolute;
   bottom: 0%;
   width: 100%;
@@ -98,6 +158,9 @@ h2 {
   .container {
     width: 1000px;
     margin: 30px auto;
+  }
+  .container .img-erro {
+    width: 60%;
   }
 
   .center {
@@ -125,6 +188,28 @@ h2 {
 
   .header-menu {
     display: none;
+  }
+
+  .cnt ul {
+    padding: 10px;
+    display: inline-flex;
+  }
+  .cnt ul li {
+    margin: 30px auto;
+    width: 350px;
+  }
+  .cnt ul li a p {
+    margin-top: 5px;
+    font-size: 17px;
+  }
+  .cnt ul li a:hover {
+    color: rgba(190, 250, 100, 0.953);
+    transition: 500ms;
+  }
+
+  .flex .flex-col {
+    width: 23%;
+    margin: 10px;
   }
 }
 

@@ -1,7 +1,7 @@
     <div class="container">
-        <h2> Jogos em destaque </h2>
+        <h2> JOGOS EM DESTAQUE </h2>
         <div class="center">
-        <h1>vai ter um carrossel aqui</h1>
+        <h3>vai ter um carrossel aqui</h3>
     </div>
 
 

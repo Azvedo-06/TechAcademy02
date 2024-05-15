@@ -1,7 +1,6 @@
-
 <div class="container">
     <p class="center">
-        <img src="imagens/404.png" alt="Página não encontrada">
+        <img class="img-erro" src="imagens/404.png" alt="Página não encontrada" title="Página não encontrada">
     </p>
-    <h2>Está página não existe</h2>
+    <h2>ESTÁ PÁGINA NÃO EXISTE</h2>
 </div>
