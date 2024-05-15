@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-       <a href="index.html" class="header-logo"> 
+       <a href="home" class="header-logo"> 
         <img src="#" alt="#" title="logo" class="logo-img">
        </a>
 
@@ -28,25 +28,24 @@
        <nav class="nav-header">
             <ul>
                 <li>
-                    <a href="index.html" title="Home">
+                    <a href="home" title="Home">
                         <i class="fa-solid fa-house"></i>
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="#" title="Equipe">
+                    <a href="equipe" title="Equipe">
                         <i class="fa-solid fa-user-group"></i>
                         Equipe
                     </a>
                 </li>
                 <li>
-                    <a href="#" title="Contato">
+                    <a href="contato" title="Contato">
                         <i class="fa-solid fa-phone"></i>
                         Contato
                     </a>
                 </li>
             </ul>
-            
        </nav>
     </header>
 
@@ -54,12 +53,28 @@
         <img src="imagens/fundo.jpg" alt="imagem fundo" class="img-fundo-moba" title="imagem fundo">
     </div>
 
-    <div class="destaques">
-        <h2 class="h2">Jogos em destaque</h2>
-        <div class="carrossel">
-            <h1>vai ter um carrossel aqui</h1>
-        </div>
-    </div>
+    <main>
+        <?php
+            if (isset($_GET["param"])) {
+                $param = $_GET["param"];
+                $p = explode("/" , $param);
+            }
+            $page = $p[0] ?? "home";
+            $jogo = $p[1] ?? NULL;
+
+            if ($page == "jogo") {
+                $pagina = "jogo/{$jogo}.php";
+            } else {
+                $pagina = "paginas/{$page}.php";
+            }
+
+            if (file_exists($pagina)) {
+                include $pagina;
+            } else {
+                include "paginas/erro.php";
+            }
+        ?>
+    </main>
 
     <footer class="footer">
         <h2>

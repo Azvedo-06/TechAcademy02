@@ -5,10 +5,21 @@
 
 body {
   background-color: #1b2838;
+  margin-top: 100px;
+}
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.center {
+  text-align: center;
 }
 
 .header {
   background-image: linear-gradient(to bottom, #1b2838, #4e697d);
+  position: fixed;
 }
 .header .header-logo {
   text-decoration: none;
@@ -68,7 +79,7 @@ body {
   display: block !important;
 }
 
-.h2 {
+h2 {
   color: #c9c4c4;
   font-family: Tahoma, Arial, Verdana;
   margin-left: 10px;
@@ -93,10 +104,6 @@ body {
   .img-fundo-moba {
     height: 300px;
     width: 100%;
-  }
-
-  .destaques {
-    text-align: center;
   }
 
   .header .header-logo {
