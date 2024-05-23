@@ -15,6 +15,40 @@ body {
 
 }
 
+.formulario {
+    text-align: center;
+    margin-top: 20px;
+    border:  #090c109b;
+    padding: 20px;
+    margin: 20px;
+    background-color: #090c109b;
+    
+    border-radius: 5px;
+    form {
+        display:grid;
+        padding: 5px;
+        label {
+            color: $clear;
+            font-family: $font;
+            margin: 5px;
+        }
+        input {
+            text-align: center;
+            color: black;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        button {
+            background-color: green;
+            width: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 15px;
+        } 
+    }
+}
+
 h2 {
     color: $clear;
     font-family: $font;
@@ -27,10 +61,11 @@ h2 {
     width: 280px;
     margin: auto;
     box-sizing: border-box;
+    }
     .img-erro {
         width: 70%;
     }
-}
+
 
 .center {
     text-align: center;

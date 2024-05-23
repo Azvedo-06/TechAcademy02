@@ -1,6 +1,6 @@
 
 <div class="container">
-    <h2>contato</h2>
+    <h2>CONTATO</h2>
 </div>
 <div class="cnt">
     <ul>

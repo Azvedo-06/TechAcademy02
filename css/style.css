@@ -7,6 +7,39 @@ body {
   background-color: #1b2838;
 }
 
+.formulario {
+  text-align: center;
+  margin-top: 20px;
+  border: #090c109b;
+  padding: 20px;
+  margin: 20px;
+  background-color: #090c109b;
+  border-radius: 5px;
+}
+.formulario form {
+  display: grid;
+  padding: 5px;
+}
+.formulario form label {
+  color: #c9c4c4;
+  font-family: Tahoma, Arial, Verdana;
+  margin: 5px;
+}
+.formulario form input {
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.formulario form button {
+  background-color: green;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+}
+
 h2 {
   color: #c9c4c4;
   font-family: Tahoma, Arial, Verdana;
@@ -20,7 +53,8 @@ h2 {
   margin: auto;
   box-sizing: border-box;
 }
-.container .img-erro {
+
+.img-erro {
   width: 70%;
 }
 
