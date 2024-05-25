@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/logomarca1.png" type="image/x-icon">
     <title>Home</title>
 </head>
 
 <body>
     <header class="header">
         <a href="home" class="header-logo">
-            <img src="#" alt="#" title="logo" class="logo-img">
+            <img src="imagens/logomarca1.png" alt="Logo-ARZ" title="logo-ARZ" class="logo-img" ">
         </a>
         
         <a href="javascript: mostrarMenu()" title="menu" class="header-menu">
