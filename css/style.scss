@@ -4,6 +4,7 @@ $secundaria: #4e697d;
 $clear: #c9c4c4;
 $font: Tahoma, Arial, Verdana; 
 $size: 15px;
+$carousel-indicator-width: 50px;
 
 * {
     margin: 0;
@@ -199,8 +200,6 @@ h2 {
         height: 300px;
         width: 100%;
     } 
-
-   
 
     .container {
         width: 1000px;
