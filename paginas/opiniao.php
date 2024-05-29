@@ -1,5 +1,5 @@
 <div class="container">
-    <h2>Enviar sua opinião</h2>
+    <h2><strong>Enviar sua opinião</strong></h2>
 </div>
 
 <div class="formulario">

@@ -1,5 +1,5 @@
     <div class="container">
-        <h2> <strong>JOGUE EM UM CLICK</strong> </h2>
+        <h2> <strong>JOGUE AGORA</strong> </h2>
     </div>
 
     <div id="carouselExampleIndicators" class="carousel slide p-3">
@@ -14,13 +14,13 @@
                 <img src="imagens/fundo.jpg" class="d-block w-100 rounded" alt="dangeon-survival">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100 " alt="...">
+                <img src="#" class="d-block w-100 " alt="#">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="#" class="d-block w-100" alt="#">
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="#" class="d-block w-100" alt="#">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

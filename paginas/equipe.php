@@ -1,5 +1,5 @@
 <div class="container">
-    <h2>EQUIPE</h2>
+    <h2> <strong>EQUIPE</strong></h2>
 </div>
 
 <div class="flex">

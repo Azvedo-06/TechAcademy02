@@ -79,7 +79,7 @@
         ?>
     </main>
     
-    <footer class="footer">
+    <footer class="rodape">
         <h2>
             <i class="fa-regular fa-copyright"></i>
             Desenvolvido Por - André - 2024
