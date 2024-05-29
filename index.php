@@ -16,7 +16,7 @@
 <body>
     <header class="header">
         <a href="home" class="header-logo">
-            <img src="imagens/logomarca1.png" alt="Logo-ARZ" title="logo-ARZ" class="logo-img" ">
+            <img src="imagens/logomarca1.png" alt="Logo-ARZ" title="logo-ARZ" class="logo-img">
         </a>
         
         <a href="javascript: mostrarMenu()" title="menu" class="header-menu">

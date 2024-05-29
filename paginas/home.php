@@ -1,5 +1,5 @@
     <div class="container">
-        <h2> JOGOS EM DESTAQUE </h2>
+        <h2> <strong>JOGUE EM UM CLICK</strong> </h2>
     </div>
 
     <div id="carouselExampleIndicators" class="carousel slide p-3">
