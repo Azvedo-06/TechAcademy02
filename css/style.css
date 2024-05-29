@@ -22,7 +22,7 @@ body {
 }
 .formulario form label {
   color: #c9c4c4;
-  font-family: Tahoma, Arial, Verdana;
+  font-family: "Montserrat", Tahoma;
   margin: 5px;
 }
 .formulario form input {
@@ -42,7 +42,7 @@ body {
 
 h2 {
   color: #c9c4c4;
-  font-family: Tahoma, Arial, Verdana;
+  font-family: "Montserrat", Tahoma;
   text-align: center;
   font-size: 22px;
   margin: 10px;
@@ -90,7 +90,7 @@ h2 {
 .header .nav-header ul li a {
   text-decoration: none;
   color: #c9c4c4;
-  font-family: Tahoma, Arial, Verdana;
+  font-family: "Montserrat", Tahoma;
   font-size: 20px;
 }
 .header .nav-header ul li a i {
@@ -111,7 +111,7 @@ h2 {
   text-decoration: none;
   color: rgba(190, 250, 100, 0.953);
   font-size: 15px;
-  font-family: Tahoma, Arial, Verdana;
+  font-family: "Montserrat", Tahoma;
 }
 .opn li a:hover {
   color: #c9c4c4;
@@ -129,7 +129,7 @@ h2 {
 .voltar a {
   color: rgba(190, 250, 100, 0.953);
   font-size: 15px;
-  font-family: Tahoma, Arial, Verdana;
+  font-family: "Montserrat", Tahoma;
   text-decoration: none;
 }
 .voltar a:hover {
