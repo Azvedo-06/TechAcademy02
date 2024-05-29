@@ -8,5 +8,7 @@
         $email = $_POST["email"] ?? NULL;
         
         ?>
-        <a href="index.php">voltar</a>
+    </div>
+    <div class="voltar">
+        <a href="index.php">voltar para o home</a>
     </div>

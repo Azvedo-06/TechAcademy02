@@ -51,6 +51,17 @@
                         Contato
                     </a>
                 </li>
+                <li class="nav-item dropdown"  data-bs-theme="dark">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gamepad"></i>
+                        Jogos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="dangeon">Dangeon Survival</a></li>
+                        <li><a class="dropdown-item" href="Swamp">Swamp Challenge</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>

@@ -74,9 +74,9 @@ h2 {
 }
 .header .header-menu {
   float: left;
-  padding: 15px;
+  margin: 15px;
   color: #c9c4c4;
-  font-size: 30px;
+  font-size: 40px;
 }
 .header .nav-header {
   display: none;
@@ -99,7 +99,7 @@ h2 {
 
 .opn {
   float: right;
-  margin: 15px;
+  margin: 27px;
   background-color: green;
   padding: 5px;
   border-radius: 5px;
@@ -114,6 +114,25 @@ h2 {
   font-family: Tahoma, Arial, Verdana;
 }
 .opn li a:hover {
+  color: #c9c4c4;
+  transition: 300ms;
+}
+
+.voltar {
+  font-size: 10px;
+  margin: 27px;
+  background-color: green;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.voltar a {
+  color: rgba(190, 250, 100, 0.953);
+  font-size: 15px;
+  font-family: Tahoma, Arial, Verdana;
+  text-decoration: none;
+}
+.voltar a:hover {
   color: #c9c4c4;
   transition: 300ms;
 }
@@ -172,7 +191,6 @@ h2 {
 .rodape {
   text-align: center;
   background-color: #090c10;
-  position: absolute;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -194,10 +212,12 @@ h2 {
   }
   .container .img-erro {
     width: 60%;
+    margin-right: 370px;
   }
 
   .center {
-    text-align: center;
+    width: 50%;
+    margin-left: 380px;
   }
 
   .header .header-logo {

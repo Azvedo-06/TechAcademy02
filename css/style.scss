@@ -83,9 +83,9 @@ h2 {
     }
     .header-menu {
         float: left;
-        padding: $size;
+        margin: 15px;
         color: $clear;
-        font-size: 30px;
+        font-size: 40px;
     }
     .nav-header{
         display: none;
@@ -109,7 +109,7 @@ h2 {
 
     .opn {
         float: right;
-        margin: 15px;
+        margin: 27px;
         background-color: green;
         padding: 5px;
         border-radius: 5px;
@@ -126,6 +126,26 @@ h2 {
                 transition: 300ms;
                 
             }
+        }
+    }
+
+    .voltar {
+        font-size: 10px;
+        margin: 27px;
+        background-color: green;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        a {
+            color: rgba(190, 250, 100, 0.953);
+            font-size: 15px;
+            font-family: $font;
+            text-decoration: none;
+            
+        }
+        a:hover {
+            color: $clear;
+            transition: 300ms;
         }
     }
 
@@ -183,14 +203,12 @@ h2 {
 .rodape {
     text-align: center;
     background-color:#090c10;
-    position: absolute;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     h2 {
         font-family: arial;
-        font-size: 15px;
-        
+        font-size: 15px;        
     }
 }
 
@@ -205,11 +223,13 @@ h2 {
         margin: 30px auto;
         .img-erro {
             width: 60%;
+            margin-right: 370px; 
         }
     }
 
     .center {
-        text-align: center;
+        width: 50%;
+        margin-left: 380px;
     }
 
     .header {
@@ -233,7 +253,6 @@ h2 {
     
     .opn {
         margin: 45px;
-        
     }
 
     .header-menu {
