@@ -2,7 +2,7 @@
 $primaria: #1b2838;
 $secundaria: #4e697d;
 $clear: #c9c4c4;
-$font: "Montserrat", Tahoma; 
+$font: "Lilita One", Tahoma; 
 $size: 15px;
 $carousel-indicator-width: 50px;
 
@@ -23,14 +23,13 @@ body {
     padding: 20px;
     margin: 20px;
     background-color: #090c109b;
-    
     border-radius: 5px;
     form {
         display:grid;
         padding: 5px;
         label {
             color: $clear;
-            font-family: $font;
+            font-family: 20px font;
             margin: 5px;
         }
         input {
@@ -52,9 +51,8 @@ body {
 
 h2 {
     color: $clear;
-    font-family: $font;
+    font: 22px $font;
     text-align: center;
-    font-size: 22px;
     margin: 10px;
 }
 
@@ -96,8 +94,7 @@ h2 {
                 a {
                     text-decoration: none;
                     color: $clear;
-                    font-family: $font;
-                    font-size: 20px;
+                    font: 20px $font;
                     i {
                         font-size: 16px;
                     }
@@ -207,8 +204,7 @@ h2 {
     padding: 10px;
     box-sizing: border-box;
     h2 {
-        font-family: arial;
-        font-size: 15px;        
+        font: 15px $font;      
     }
 }
 
