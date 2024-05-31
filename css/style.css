@@ -44,7 +44,7 @@ h2 {
   color: #c9c4c4;
   font: 22px "Lilita One", Tahoma;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 .container {
@@ -164,26 +164,27 @@ h2 {
 }
 
 .flex {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  margin-top: 40px;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 .flex .flex-col {
   background-color: #101822;
-  width: 90%;
-  border: 1px solid #c9c4c4;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  width: 45%;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
 }
 .flex .flex-col p {
-  font: Montserrat;
+  font: 20px tahoma;
   color: #c9c4c4;
   text-align: center;
 }
 .flex .flex-col img {
-  width: 100%;
+  width: 95%;
   border-radius: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px 1px #000000;
 }
 
 .rodape {
@@ -192,6 +193,8 @@ h2 {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
+  position: absolute;
+  bottom: 0%;
 }
 .rodape h2 {
   font: 15px "Lilita One", Tahoma;
@@ -201,6 +204,10 @@ h2 {
   .img-fundo-moba {
     height: 300px;
     width: 100%;
+  }
+
+  .flex flex-col img {
+    width: 50%;
   }
 
   .container {
@@ -240,13 +247,17 @@ h2 {
     display: none;
   }
 
+  .cnt {
+    width: 800px;
+    margin: 10px auto;
+  }
   .cnt ul {
-    padding: 10px;
-    display: inline-flex;
+    padding: 5px;
+    display: inline;
   }
   .cnt ul li {
-    margin: 30px auto;
-    width: 350px;
+    margin: 10px auto;
+    width: 300px;
   }
   .cnt ul li a p {
     margin-top: 5px;

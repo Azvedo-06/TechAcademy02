@@ -19,7 +19,7 @@
             <img src="imagens/logomarca1.png" alt="Logo-ARZ" title="logo-ARZ" class="logo-img">
         </a>
         
-        <a href="javascript: mostrarMenu()" title="menu" class="header-menu">
+        <a href="javascript: mostrarMenu()" title="menu" class="header-menu ">
             <i class="fa-solid fa-bars"></i>
         </a>
         
@@ -59,7 +59,8 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="dangeon">Dangeon Survival</a></li>
                         <li><a class="dropdown-item" href="Swamp">Swamp Challenge</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="flappy">flappy burnes</a></li>
+                        <li><a class="dropdown-item" href="#">Galactic annihilation</a></li>
                     </ul>
                 </li>
             </ul>
@@ -93,7 +94,7 @@
     <footer class="rodape">
         <h2>
             <i class="fa-regular fa-copyright"></i>
-            Desenvolvido Por - André - 2024
+            Desenvolvido Por André - 2024
         </h2>
     </footer>
 </body>

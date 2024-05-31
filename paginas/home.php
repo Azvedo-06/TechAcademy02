@@ -1,4 +1,4 @@
-    <div class="container">
+    <div class="center">
         <h2> <strong>JOGUE AGORA</strong> </h2>
     </div>
 
@@ -21,12 +21,16 @@
                         <img src="imagens/swamp.jpeg" class="d-block w-100 " alt="#">
                     </div>
                 </a>
-                <div class="carousel-item">
-                    <img src="#" class="d-block w-100" alt="#">
-                </div>
-                <div class="carousel-item">
-                    <img src="#" class="d-block w-100" alt="#">
-                </div>
+                <a href="flappy">
+                    <div class="carousel-item">
+                        <img src="imagens/flappy burnes.jpeg" class="d-block w-100" alt="#">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="carousel-item">
+                        <img src="#" class="d-block w-100" alt="#">
+                    </div>
+                </a>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

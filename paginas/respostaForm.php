@@ -6,7 +6,6 @@
         <?php
         $nome = $_POST["nome"]  ?? NULL;
         $email = $_POST["email"] ?? NULL;
-        
         ?>
     </div>
     <div class="voltar">

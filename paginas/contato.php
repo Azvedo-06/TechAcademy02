@@ -1,5 +1,5 @@
 
-<div class="container">
+<div class="center">
     <h2><strong>CONTATO</strong></h2>
 </div>
 <div class="cnt">
