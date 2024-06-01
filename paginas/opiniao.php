@@ -11,7 +11,7 @@
             <input type="email" name="email" id="email" placeholder="Digite um Gmail" inputmode="email" required>
             <br>
             <label for="mensagem">Deixe Sua opinião</label>
-            <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
+            <textarea name="mensagem" id="mensagem" rows="2" required></textarea>
         <button type="submit">Enviar Dados</button>
     </form>
 </div>

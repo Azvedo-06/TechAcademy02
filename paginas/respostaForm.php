@@ -9,8 +9,10 @@
             $mensagem = $_POST["mensagem"] ?? null;
             $nome = $_POST["nome"] ?? null;
             
-            echo "<p>Nome: {$nome} <br> Gmail: {$email} <br> Mensagem: {$mensagem}</p>";  
+            echo "<p>Nome: {$nome} <br> Gmail: {$email}</p>"; 
+            echo "<p> Mensagem: {$mensagem} </p>";
         ?>
+        
     </div>
 
 <div class="voltar">
