@@ -56,9 +56,14 @@ h2 {
     margin: 5px;
 }
 
+p {
+    color: $clear;
+    font: $size tahoma;
+}
+
 .container {
     width: 280px;
-    margin: auto;
+    margin: 20px auto;
     box-sizing: border-box;
     }
     .img-erro {
@@ -68,6 +73,7 @@ h2 {
 
 .center {
     text-align: center;
+    margin: 20px auto;
 }
 
 .header {
@@ -128,7 +134,8 @@ h2 {
 
     .voltar {
         font-size: 10px;
-        margin: 27px;
+        margin: 20px auto;
+        width: 150px;
         background-color: green;
         padding: 5px;
         border-radius: 5px;
@@ -225,18 +232,19 @@ h2 {
             }
         }
     }
+
     .container {
         width: 1000px;
         margin: 30px auto;
         .img-erro {
             width: 60%;
-            margin-right: 370px; 
+            margin: 5px auto;
         }
     }
 
     .center {
         width: 50%;
-        margin-left: 380px;
+        margin: 10px auto;
     }
 
     .header {

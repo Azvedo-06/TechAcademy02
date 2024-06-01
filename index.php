@@ -60,7 +60,7 @@
                         <li><a class="dropdown-item" href="dangeon">Dangeon Survival</a></li>
                         <li><a class="dropdown-item" href="Swamp">Swamp Challenge</a></li>
                         <li><a class="dropdown-item" href="flappy">flappy burnes</a></li>
-                        <li><a class="dropdown-item" href="#">Galactic annihilation</a></li>
+                        <li><a class="dropdown-item" href="sd">Galactic annihilation</a></li>
                     </ul>
                 </li>
             </ul>
@@ -70,18 +70,13 @@
     
     <main>
         <?php
-        if (isset($_GET["param"])) {
+           if (isset($_GET["param"])) {
             $param = $_GET["param"];
             $p = explode("/", $param);
         }
         $page = $p[0] ?? "home";
-        $jogo = $p[1] ?? NULL;
         
-        if ($page == "jogo") {
-            $pagina = "jogo/{$jogo}.php";
-        } else {
-            $pagina = "paginas/{$page}.php";
-        }
+        $pagina = "paginas/{$page}.php";
         
         if (file_exists($pagina)) {
             include $pagina;
