@@ -52,8 +52,8 @@ body {
 h2 {
     color: $clear;
     font: 22px $font;
-    text-align: center;
     margin: 5px;
+    text-align: center;
 }
 
 p {
@@ -135,7 +135,7 @@ p {
     .voltar {
         font-size: 10px;
         margin: 20px auto;
-        width: 150px;
+        width: 250px;
         background-color: green;
         padding: 5px;
         border-radius: 5px;
@@ -191,6 +191,11 @@ p {
         border: 1px solid transparentize($color: #000000, $amount: 0);
         margin: 5px;
         border-radius: 5px;
+        a {
+            text-decoration: none;
+            color: rgba(190, 250, 100, 0.953);
+            font-size: 15px;
+        }
         p {
             font: 20px tahoma ;
             color: $clear;
@@ -212,16 +217,24 @@ p {
     padding: 10px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 0%;
+    bottom: -100px;
     h2 {
         font: 15px $font;      
     }
 }
 
 @media(min-width: 800px) {
-    .img-fundo-moba {
-        height: 300px;
+    .rodape {
+        text-align: center;
+        background-color:#090c10;
         width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0%;
+        h2 {
+            font: 15px $font;      
+        }
     }
 
     .flex {
@@ -299,11 +312,24 @@ p {
         & &-col {
             width: 23%;
             margin: 10px;
+            a {
+                text-decoration: none;
+                color: rgba(190, 250, 100, 0.953);
+                &:hover {
+                    color: $clear;
+                    transition: 500ms;
+                }
+            }
         }
     }
     .mostrar {
     display: none !important;
-    
+    }
+    .jogo-paginas-moba {
+        display: none !important;
+    }
+    .jogo-paginas-desk {
+        display: block !important;
     }
 }
 
@@ -333,3 +359,43 @@ p {
 
 
 // parte das paginas de cada jogo
+
+.jogo-paginas-desk {
+    display: none;
+}
+
+.img-paginas {
+    width: 100%;
+}
+.h2-paginas {
+    text-align:left;
+    margin: 10px;
+}
+.p-paginas {
+    text-align:left;
+    margin: 10px;
+    color: $clear;
+    font: $size tahoma;
+    a {
+        text-decoration: none;
+        color: #67c1f5;
+    }
+}
+.jogar {
+    background-color: #5c5a5a7e;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 35px;
+    p {
+        float: right;
+       margin-top: 2px; 
+    }
+    .botao {
+        text-align: center;
+        background-color: green;
+        padding: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: rgba(190, 250, 100, 0.953);
+    }
+}
