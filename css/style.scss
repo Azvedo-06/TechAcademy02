@@ -38,7 +38,7 @@ body {
             border-radius: 5px;
             padding: 10px;
         }
-        button {
+        .button {
             background-color: green;
             width: 200px;
             padding: 10px;
@@ -218,7 +218,6 @@ p {
     }
 }
 
-
 @media(min-width: 800px) {
     .img-fundo-moba {
         height: 300px;
@@ -302,6 +301,35 @@ p {
             margin: 10px;
         }
     }
+    .mostrar {
+    display: none !important;
+    
+    }
 }
+
+
+.mostrar {
+    display: block;
+    margin: auto;
+    width: 300px;
+    
+}
+
+.col {
+    background-color: $secundaria;
+    margin: 1px auto;
+    padding: 10px;
+    width: auto;
+    border-radius: 10px;
+    img {
+        border-radius: 5px;
+    }
+    a {
+        text-decoration: none;
+        color: rgba(190, 250, 100, 0.953);  
+        size: 50px;      
+    }
+}
+
 
 // parte das paginas de cada jogo

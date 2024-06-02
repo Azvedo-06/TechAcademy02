@@ -12,6 +12,6 @@
             <br>
             <label for="mensagem">Deixe Sua opinião</label>
             <textarea name="mensagem" id="mensagem" rows="2" required></textarea>
-        <button type="submit">Enviar Dados</button>
+            <button class="button"type="submit">Enviar Dados</button>
     </form>
 </div>

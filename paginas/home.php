@@ -42,3 +42,25 @@
             </button>
         </div>
     </div>
+
+    <div class="mostrar">
+        <h2>    
+            <strong>
+            <i class="fa-duotone fa-trophy"></i>
+                DESTAQUE DA SEMANA
+            <i class="fa-duotone fa-trophy"></i>
+            </strong>
+        </h2>
+        <div class="container text-center">
+            <div class="row row-cols-1">
+                <div class="col">
+                    <img src="imagens/flappymobi.png" alt="Flappy Burnes" title="Flappy Burnes">
+                    <h3 style="color: #fff;">Flappy Burnes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At officia tempore debitis velit</p>
+                    <a href="flappy" class="voltar" title="Deixe sua opinião">
+                    Ver Detalhes
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>

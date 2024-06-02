@@ -31,7 +31,7 @@ body {
   border-radius: 5px;
   padding: 10px;
 }
-.formulario form button {
+.formulario form .button {
   background-color: green;
   width: 200px;
   padding: 10px;
@@ -279,6 +279,31 @@ p {
     width: 23%;
     margin: 10px;
   }
+
+  .mostrar {
+    display: none !important;
+  }
+}
+.mostrar {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+.col {
+  background-color: #4e697d;
+  margin: 1px auto;
+  padding: 10px;
+  width: auto;
+  border-radius: 10px;
+}
+.col img {
+  border-radius: 5px;
+}
+.col a {
+  text-decoration: none;
+  color: rgba(190, 250, 100, 0.953);
+  size: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
