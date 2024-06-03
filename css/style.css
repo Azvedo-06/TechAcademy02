@@ -212,6 +212,12 @@ p {
   font: 15px "Lilita One", Tahoma;
 }
 
+@media (max-width: 420px) {
+  .rodape {
+    position: absolute;
+    bottom: auto;
+  }
+}
 @media (min-width: 800px) {
   .rodape {
     text-align: center;
