@@ -62,14 +62,14 @@ p {
   width: 70%;
 }
 
-.center {
+.center, .carrossel {
   text-align: center;
   margin: 20px auto;
 }
 
 .header {
   background-image: linear-gradient(to bottom, #1b2838, #4e697d);
-  top: 0%;
+  top: 20;
 }
 .header .header-logo {
   text-decoration: none;
@@ -206,7 +206,7 @@ p {
   padding: 10px;
   box-sizing: border-box;
   position: absolute;
-  bottom: -100px;
+  bottom: -135px;
 }
 .rodape h2 {
   font: 15px "Lilita One", Tahoma;
@@ -220,7 +220,7 @@ p {
     padding: 10px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 0%;
+    bottom: 20;
   }
   .rodape h2 {
     font: 15px "Lilita One", Tahoma;
@@ -304,14 +304,6 @@ p {
   .mostrar {
     display: none !important;
   }
-
-  .jogo-paginas-moba {
-    display: none !important;
-  }
-
-  .jogo-paginas-desk {
-    display: block !important;
-  }
 }
 .mostrar {
   display: block;
@@ -319,24 +311,20 @@ p {
   width: 300px;
 }
 
-.col {
+.col-des {
   background-color: #4e697d;
   margin: 1px auto;
   padding: 10px;
   width: auto;
   border-radius: 10px;
 }
-.col img {
+.col-des img {
   border-radius: 5px;
 }
-.col a {
+.col-des a {
   text-decoration: none;
   color: rgba(190, 250, 100, 0.953);
-  size: 50px;
-}
-
-.jogo-paginas-desk {
-  display: none;
+  font-size: 15px;
 }
 
 .img-paginas {
@@ -376,6 +364,53 @@ p {
   border-radius: 5px;
   text-decoration: none;
   color: rgba(190, 250, 100, 0.953);
+}
+
+.img-paginas-desk {
+  display: none;
+}
+
+.col {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background-color: #1b2838;
+}
+
+@media (min-width: 800px) {
+  .img-paginas {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .grid .col {
+    padding: 0;
+    border-radius: 0;
+    background-color: #1b2838;
+  }
+  .grid .col .descricao .h2-paginas {
+    text-align: left;
+  }
+  .grid .col .descricao .img-paginas-desk {
+    display: block;
+    margin: 10px;
+    width: 300px;
+  }
+  .grid .col .h2-paginas {
+    text-align: center;
+  }
+
+  .jogar {
+    padding: 15px;
+    margin-top: 100px;
+  }
+  .jogar a:hover {
+    color: #c9c4c4;
+    transition: 500ms;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

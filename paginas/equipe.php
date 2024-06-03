@@ -18,7 +18,7 @@
         <div class="flex-col">
             <img src="imagens/img-guilherme.jpg" alt="img-dev">
             <h2>Guilherme</h2>
-            <p><a href="https://github.com/#" target="_blank">GitHub:Guilherme</a></p>
+            <p><a href="https://github.com/guilhermefreitas450" target="_blank">GitHub:Guilherme</a></p>
             <p>Jogo - Galactic Annihilation</p>
         </div>
         <div class="flex-col">

@@ -59,8 +59,8 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="dangeon">Dangeon Survival</a></li>
                         <li><a class="dropdown-item" href="Swamp">Swamp Challenge</a></li>
-                        <li><a class="dropdown-item" href="flappy">flappy burnes</a></li>
-                        <li><a class="dropdown-item" href="sd">Galactic annihilation</a></li>
+                        <li><a class="dropdown-item" href="flappy">Flappy Burnes</a></li>
+                        <li><a class="dropdown-item" href="sd">Galactic Annihilation</a></li>
                     </ul>
                 </li>
             </ul>

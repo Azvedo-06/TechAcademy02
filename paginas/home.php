@@ -26,9 +26,9 @@
                         <img src="imagens/flappy burnes.jpeg" class="d-block w-100" alt="#">
                     </div>
                 </a>
-                <a href="#">
+                <a href="galactic">
                     <div class="carousel-item">
-                        <img src="#" class="d-block w-100" alt="#">
+                        <img src="imagens/galactic.jpeg" class="d-block w-100" alt="#">
                     </div>
                 </a>
             </div>
@@ -53,7 +53,7 @@
         </h2>
         <div class="container text-center">
             <div class="row row-cols-1">
-                <div class="col">
+                <div class="col-des">
                     <img src="imagens/flappymobi.png" alt="Flappy Burnes" title="Flappy Burnes">
                     <h3 style="color: #fff;">Flappy Burnes</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At officia tempore debitis velit</p>
