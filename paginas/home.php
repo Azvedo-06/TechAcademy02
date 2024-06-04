@@ -16,19 +16,19 @@
                         <img src="imagens/fundo.jpg" class="d-block w-100 rounded" alt="dangeon-survival">
                     </div>
                 </a>
-                <a href="swamp">
+                <a href="swampchallenge">
                     <div class="carousel-item">
-                        <img src="imagens/swamp.jpeg" class="d-block w-100 " alt="#">
+                        <img src="imagens/swamp.jpeg" class="d-block w-100 " alt="swamp">
                     </div>
                 </a>
                 <a href="flappy">
                     <div class="carousel-item">
-                        <img src="imagens/flappy burnes.jpeg" class="d-block w-100" alt="#">
+                        <img src="imagens/flappy burnes.jpeg" class="d-block w-100" alt="flappy">
                     </div>
                 </a>
                 <a href="galactic">
                     <div class="carousel-item">
-                        <img src="imagens/galactic.jpeg" class="d-block w-100" alt="#">
+                        <img src="imagens/galactic.jpeg" class="d-block w-100" alt="galactic">
                     </div>
                 </a>
             </div>
