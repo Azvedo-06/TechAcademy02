@@ -1,12 +1,12 @@
 <div class="jogo-paginas-moba">
     
-    <img src="imagens/flappy burnes.jpeg" alt="dangeon" title="dangeon survival" class="img-paginas">
+    <img src="imagens/flappy burnes.jpeg" alt="flappy burnes" title="flappy burnes" class="img-paginas">
     
     <div class="grid">
         <div class="col">
             <div class="descricao">
                 <h2 class="h2-paginas">FLAPPY BURNES: BACON EDITION</h2>
-                <img src="imagens/flappy burnes.jpeg" alt="dangeon" title="dangeon survival" class="img-paginas-desk">
+                <img src="imagens/flappy burnes.jpeg" alt="flappy burnes" title="flappy burnes" class="img-paginas-desk">
                 <p class="p-paginas" style="color: #8A97A0;">
                     Criado Por: <a href="equipe"><strong>FELIPE</strong></a>
                     <br>
