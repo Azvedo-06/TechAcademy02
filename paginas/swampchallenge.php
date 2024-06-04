@@ -13,9 +13,9 @@
                     Engine: <a href="https://www.construct.net/en" target="_blank"><strong>Construct 3</strong></a>
                 </p>
                 <p class="p-paginas">
-                    Jogo de plataforma, com o objetivo de máximo score (pontos), em sátira ao aclamado jogo FlappyBirds, utilizando como protagonista nosso querido professor Burnes. Muito Bacon para vocês!. <br>
-                    O protagonista possui a ação de salto, do qual permanece em “voo”, se parar, ele despenca, caso encoste nos elementos do cenário, acarretará em game-over. 
-                    Plataforma PC/MOBILE usando teclado/Touch
+                    Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna, <br> 
+                    uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
+                    Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.
                 </p>
             </div>
         </div>
