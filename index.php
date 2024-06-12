@@ -75,7 +75,7 @@
             $p = explode("/", $param);
         }
         $page = $p[0] ?? "home";
-        
+            
         $pagina = "paginas/{$page}.php";
         
         if (file_exists($pagina)) {

@@ -1,5 +1,5 @@
     <div class="center">
-        <h2> <strong>JOGUE AGORA</strong> </h2>
+        <h2> <strong>LANÇAMENTOS</strong> </h2>
     </div>
 
     <div class="center">
