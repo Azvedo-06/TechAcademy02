@@ -1,7 +1,7 @@
 <div class="jogo-paginas-moba">
-    
+
     <img src="imagens/flappy burnes.jpeg" alt="flappy burnes" title="flappy burnes" class="img-paginas">
-    
+
     <div class="grid">
         <div class="col">
             <div class="descricao">
@@ -12,11 +12,24 @@
                     <br>
                     Engine: <a href="https://www.construct.net/en" target="_blank"><strong>Construct 3</strong></a>
                 </p>
-                <p class="p-paginas">
-                    Jogo de plataforma, com o objetivo de máximo score (pontos), em sátira ao aclamado jogo FlappyBirds, utilizando como protagonista nosso querido professor Burnes. Muito Bacon para vocês!. <br>
-                    O protagonista possui a ação de salto, do qual permanece em “voo”, se parar, ele despenca, caso encoste nos elementos do cenário, acarretará em game-over. 
-                    Plataforma PC/MOBILE usando teclado/Touch
-                </p>
+                <div class="accordion accordion-flush p-2" data-bs-theme="dark" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Descrição
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="p-paginas">
+                                    Jogo de plataforma, com o objetivo de máximo score (pontos), em sátira ao aclamado jogo FlappyBirds, utilizando como protagonista nosso querido professor Burnes. Muito Bacon para vocês!. <br>
+                                    O protagonista possui a ação de salto, do qual permanece em “voo”, se parar, ele despenca, caso encoste nos elementos do cenário, acarretará em game-over.
+                                    Plataforma PC/MOBILE usando teclado/Touch
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col">

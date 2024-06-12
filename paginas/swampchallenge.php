@@ -1,7 +1,7 @@
 <div class="jogo-paginas-moba">
-    
+
     <img src="imagens/swamp.jpeg" alt="swamp" title="swamp" class="img-paginas">
-    
+
     <div class="grid">
         <div class="col">
             <div class="descricao">
@@ -12,11 +12,24 @@
                     <br>
                     Engine: <a href="https://www.construct.net/en" target="_blank"><strong>Construct 3</strong></a>
                 </p>
-                <p class="p-paginas">
-                    Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna, <br> 
-                    uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
-                    Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.
-                </p>
+                <div class="accordion accordion-flush p-2" data-bs-theme="dark" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Descrição
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="p-paginas">
+                                    Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna,
+                                    Uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
+                                    Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col">
