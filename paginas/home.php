@@ -26,7 +26,7 @@
                         <img src="imagens/flappy burnes.jpeg" class="d-block w-100" alt="flappy">
                     </div>
                 </a>
-                <a href="galactic" title="Galactic">
+                <a href="games/galactic/index.html" target="_blank" title="Galactic">
                     <div class="carousel-item">
                         <img src="imagens/galactic.jpeg" class="d-block w-100" alt="galactic">
                     </div>
