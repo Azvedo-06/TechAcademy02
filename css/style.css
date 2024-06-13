@@ -155,6 +155,7 @@ p {
 }
 .cnt ul {
   list-style: none;
+  padding: 0%;
 }
 .cnt ul li {
   margin: 5px;
@@ -174,6 +175,7 @@ p {
   display: inline-flex;
   flex-wrap: wrap;
   margin-left: 20px;
+  margin-bottom: 52px;
 }
 .flex .flex-col {
   background-color: #101822;
@@ -206,7 +208,6 @@ p {
   padding: 10px;
   box-sizing: border-box;
   position: absolute;
-  bottom: -135px;
 }
 .rodape h2 {
   font: 15px "Lilita One", Tahoma;
@@ -217,6 +218,10 @@ p {
     position: absolute;
     bottom: auto;
   }
+
+  .jogar {
+    padding: 10px !important;
+  }
 }
 @media (min-width: 800px) {
   .rodape {
@@ -225,8 +230,6 @@ p {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    position: absolute;
-    bottom: 20;
   }
   .rodape h2 {
     font: 15px "Lilita One", Tahoma;
@@ -319,7 +322,7 @@ p {
 
 .col-des {
   background-color: #4e697d;
-  margin: 1px auto;
+  margin: 1px 1px 100px auto;
   padding: 10px;
   width: auto;
   border-radius: 10px;

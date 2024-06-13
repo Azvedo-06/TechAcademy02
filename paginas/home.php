@@ -1,5 +1,5 @@
     <div class="center">
-        <h2> <strong>JOGAR AGORA</strong> </h2>
+        <h2> <strong>JOGAR COM UM CLICK</strong> </h2>
     </div>
 
     <div class="center">
@@ -11,22 +11,22 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-                <a href="dangeon">
+                <a href="games/jogo/index.html" target="_blank" title="Dangeon Survival">
                     <div class="carousel-item active">
                         <img src="imagens/fundo.jpg" class="d-block w-100 rounded" alt="dangeon-survival">
                     </div>
                 </a>
-                <a href="swampchallenge">
+                <a href="games/swampchallenge/index.html" target="_blank" title="Swamp Challenge">
                     <div class="carousel-item">
-                        <img src="imagens/swamp.jpeg" class="d-block w-100 " alt="swamp">
+                        <img src="imagens/swamp.jpeg" class="d-block w-100" alt="swamp">
                     </div>
                 </a>
-                <a href="flappy">
+                <a href="games/game/index.html" target="_blank" title="Flappy Burnes">
                     <div class="carousel-item">
                         <img src="imagens/flappy burnes.jpeg" class="d-block w-100" alt="flappy">
                     </div>
                 </a>
-                <a href="galactic">
+                <a href="galactic" title="Galactic">
                     <div class="carousel-item">
                         <img src="imagens/galactic.jpeg" class="d-block w-100" alt="galactic">
                     </div>
@@ -56,7 +56,7 @@
                 <div class="col-des">
                     <img src="imagens/flappymobi.png" alt="Flappy Burnes" title="Flappy Burnes">
                     <h3 style="color: #fff;">Flappy Burnes</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At officia tempore debitis velit</p>
+                    <p>sátira ao aclamado jogo FlappyBirds, utilizando como protagonista nosso querido professor Burnes. Muito Bacon para vocês!.</p>
                     <a href="flappy" class="voltar" title="Deixe sua opinião">
                     Ver Detalhes
                     </a>

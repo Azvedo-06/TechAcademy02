@@ -52,9 +52,9 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown"  data-bs-theme="dark">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  title="Jogos" aria-expanded="false">
                         <i class="fa-solid fa-gamepad"></i>
-                        Jogos
+                        Sobre Os Jogos
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="dangeon">Dangeon Survival</a></li>
