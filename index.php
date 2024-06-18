@@ -57,10 +57,10 @@
                         Sobre Os Jogos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="dangeon">Dangeon Survival</a></li>
-                        <li><a class="dropdown-item" href="swampchallenge">Swamp Challenge</a></li>
-                        <li><a class="dropdown-item" href="flappy">Flappy Burnes</a></li>
-                        <li><a class="dropdown-item" href="galactic">Galactic Annihilation</a></li>
+                        <li><a class="dropdown-item" href="dangeon" title="dangeon survival">Dangeon Survival</a></li>
+                        <li><a class="dropdown-item" href="swampchallenge" title="swamp challenge">Swamp Challenge</a></li>
+                        <li><a class="dropdown-item" href="flappy" title="flappy burnes">Flappy Burnes</a></li>
+                        <li><a class="dropdown-item" href="galactic" title="galactic annihilation">Galactic Annihilation</a></li>
                     </ul>
                 </li>
             </ul>
@@ -86,7 +86,7 @@
         ?>
     </main>
     
-    <footer class="rodape">
+    <footer class="rodape" title="rodapé">
         <h2>
             <i class="fa-regular fa-copyright"></i>
             Desenvolvido Por André - 2024

@@ -63,6 +63,6 @@
 
     <div class="jogar">
         <p class="p-paginas" style="font-size:medium;">JOGAR GALACTIC ANNIHILATION</p>
-        <a href="games/galactic/index.html" target="_blank" class="botao">JOGAR AGORA</a>
+        <a href="games/galactic/index.html" target="_blank" class="botao" title="jogar agora">JOGAR AGORA</a>
     </div>
 </div>

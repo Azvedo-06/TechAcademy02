@@ -65,6 +65,6 @@
 
     <div class="jogar">
         <p class="p-paginas" style="font-size:medium;">JOGAR FLAPPY BURNES</p>
-        <a href="games/game/index.html" target="_blank" class="botao">JOGAR AGORA</a>
+        <a href="games/game/index.html" target="_blank" title="jogar agora" class="botao">JOGAR AGORA</a>
     </div>
 </div>

@@ -64,6 +64,6 @@
 
     <div class="jogar">
         <p class="p-paginas" style="font-size:medium;">JOGAR DANGEON SURVIVAL</p>
-        <a href="games/jogo/index.html" target="_blank" class="botao">JOGAR AGORA</a>
+        <a href="games/jogo/index.html" target="_blank" class="botao" title="jogar agora">JOGAR AGORA</a>
     </div>
 </div>
